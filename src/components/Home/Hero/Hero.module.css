@@ -1,0 +1,118 @@
+.hero_Container {
+  width: 100%;
+  margin-top: 9rem;
+}
+
+.hero_Wrapper {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero_Words {
+  width: 50%;
+}
+
+.hero_Words h1 {
+  font-size: 3.3vw;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+}
+
+.hero_Words p {
+  font-size: 1.2rem;
+  margin-top: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.hero_Btns {
+  margin-top: 2.8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+}
+
+.hero_Btns button {
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #ffff;
+  padding: 13px 55px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.hero_Btns button:hover {
+  background: transparent;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.hero_Btns .hero_Trans {
+  border: 2px solid #c2bebe;
+  background-color: transparent;
+  color: #c2bebe;
+  padding: 13px 55px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.hero_Btns .hero_Trans:hover {
+  background: #000000;
+  border: 2px solid #000000;
+  color: #ffffff;
+}
+
+.hero_Img {
+  width: 50%;
+}
+
+.hero_Img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1084px) {
+  .hero_Wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero_Wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero_Words h1,
+  p {
+    text-align: center;
+  }
+
+  .hero_Btns {
+    justify-content: center;
+  }
+
+  .hero_Words,
+  .hero_Img {
+    width: 100%;
+  }
+
+  .hero_Words h1 {
+    font-size: 6vw;
+  }
+
+  .hero-Words p {
+    font-size: 16px;
+  }
+}
