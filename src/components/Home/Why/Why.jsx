@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import classes from "./Why.module.css";
+import { FaHandsHelping, FaPlug, FaPuzzlePiece } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -12,18 +13,20 @@ const Why = () => {
     <div className={classes.why_Container}>
       <div className={classes.why_Wrapper}>
         <h2>
-          Why
+          Why Use
           <span> teach</span>Nexus?
         </h2>
         <div className={classes.why_Content} data-aos="zoom-in">
-          <div className={classes.why_Words}>
+          <div className={classes.why_Words} data-aos="zoom-in">
+            <FaPlug className={classes.icon} />
             <h3>Passion</h3>
             <p>
               We are passionate about connecting educators with rewarding
               teaching opportunities
             </p>
           </div>
-          <div className={classes.why_Words}>
+          <div className={classes.why_Words} data-aos="fade-right">
+            <FaHandsHelping className={classes.icon} />
             <h3>Find Jobs</h3>
             <p>
               We empower teachers to find their ideal jobs while helping schools
@@ -31,7 +34,8 @@ const Why = () => {
               values.
             </p>
           </div>
-          <div className={classes.why_Words}>
+          <div className={classes.why_Words} data-aos="fade-up">
+            <FaPuzzlePiece className={classes.icon} />
             <h3>Supportive ecosystem</h3>
             <p>
               We strive to create a supportive ecosystem where educators can

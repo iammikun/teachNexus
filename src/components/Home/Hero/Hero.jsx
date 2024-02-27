@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import classes from "./Hero.module.css";
 import { Link } from "react-router-dom";
-import hero from "../../../Images/hero.jpg";
+import heroTwo from "../../../Images/heroTwo.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Hero = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1700 });
   }, []);
 
   return (
@@ -23,13 +23,18 @@ const Hero = () => {
             <Link to="">
               <button>Apply</button>
             </Link>
-            <Link to="">
+            <Link to="/about">
               <button className={classes.hero_Trans}>About</button>
             </Link>
           </div>
         </div>
         <div className={classes.hero_Img}>
-          <img src={hero} alt="" data-aos="zoom-in" />
+          <img
+            src={heroTwo}
+            alt=""
+            data-aos="zoom-in"
+            data-aos-duration="1900"
+          />
         </div>
       </div>
     </div>
