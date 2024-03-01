@@ -1,6 +1,7 @@
 .why_Container {
   width: 100%;
   margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .why_Wrapper {
@@ -54,6 +55,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   line-height: 150%;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

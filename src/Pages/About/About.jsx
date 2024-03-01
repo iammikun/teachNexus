@@ -10,8 +10,8 @@ const About = () => {
   return (
     <div>
       <Hero />
-      <Why />
       <Value />
+      <Why />
     </div>
   );
 };

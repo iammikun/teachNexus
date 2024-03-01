@@ -13,7 +13,7 @@ const Why = () => {
     <div className={classes.why_Container}>
       <div className={classes.why_Wrapper}>
         <h2>
-          Why Use
+          Why
           <span> teach</span>Nexus?
         </h2>
         <div className={classes.why_Content} data-aos="zoom-in">

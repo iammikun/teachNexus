@@ -21,10 +21,10 @@ const Hero = () => {
           </p>
           <div className={classes.hero_Btns} data-aos="fade-up">
             <Link to="">
-              <button>Apply</button>
+              <button>Create Account</button>
             </Link>
             <Link to="/about">
-              <button className={classes.hero_Trans}>About</button>
+              <button className={classes.hero_Trans}>Learn More</button>
             </Link>
           </div>
         </div>

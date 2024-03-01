@@ -47,31 +47,34 @@
   font-weight: 600;
   font-size: 1rem;
   border-radius: 10px;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 
 .hero_Btns button:hover {
   background: transparent;
   border: 2px solid #000000;
   color: #000000;
+  transition: 0.5s ease-in-out;
 }
 
 .hero_Btns .hero_Trans {
   border: 2px solid #c2bebe;
   background-color: transparent;
   color: #c2bebe;
-  padding: 13px 55px;
+  padding: 13px 65px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
   font-weight: 600;
   font-size: 1rem;
   border-radius: 10px;
+  transition: 0.5s ease-in-out;
 }
 
 .hero_Btns .hero_Trans:hover {
   background: #000000;
   border: 2px solid #000000;
   color: #ffffff;
+  transition: 0.5s ease-in-out;
 }
 
 .hero_Img {
@@ -120,5 +123,18 @@
   .hero_Words p {
     text-align: center;
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .hero_Btns {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero_Btns button {
+    width: 100%;
   }
 }

@@ -26,6 +26,7 @@
 
 .hamburger {
   display: none;
+  outline: none;
 }
 
 @media screen and (max-width: 1084px) {
@@ -41,6 +42,7 @@
     cursor: pointer;
     outline: none;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
   }
 
   .hamburger .horizontal {

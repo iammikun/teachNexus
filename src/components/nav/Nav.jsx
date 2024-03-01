@@ -20,7 +20,7 @@ const Nav = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <Link to="">
-            <button>Apply</button>
+            <button>Create Account</button>
           </Link>
         </ul>
       </nav>

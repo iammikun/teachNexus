@@ -65,3 +65,22 @@
     font-size: 5.2vw;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .search_Wrapper form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search_Wrapper form input {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .search_Wrapper button {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+  }
+}

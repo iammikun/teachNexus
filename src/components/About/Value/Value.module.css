@@ -1,7 +1,6 @@
 .value_Container {
   width: 100%;
   margin-top: 8rem;
-  margin-bottom: 10rem;
 }
 
 .value_Wrapper {
@@ -77,5 +76,11 @@
 @media screen and (max-width: 1084px) {
   .value_Wrapper {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .value_Wrapper h2 {
+    font-size: 5.2vw;
   }
 }

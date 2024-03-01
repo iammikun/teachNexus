@@ -15,6 +15,7 @@
 
 .about_Word {
   width: 50%;
+  margin-top: 8rem;
 }
 
 .About_Wrapper h1 {
@@ -54,12 +55,20 @@
 }
 
 @media screen and (max-width: 1084px) {
+  .about_Word {
+    margin-top: 3rem;
+  }
+
   .About_Wrapper {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .about_Word {
+    margin-top: 1rem;
+  }
+
   .hero_About {
     margin-top: 9rem;
   }
